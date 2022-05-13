@@ -14,7 +14,7 @@ def mycryptomachine():
 
     # user input
     message = input("Enter your secret message: ")
-    mode = input("Crypto Mode : Encode(E) OR Decode(D)")
+    mode = input("Crypto Mode : Encode(E) OR Decode(D) : ")
 
     #encode and decode
     if mode.upper() == 'E':
