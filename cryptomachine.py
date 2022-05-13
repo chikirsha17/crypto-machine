@@ -1,4 +1,4 @@
-def machine():
+def mycryptomachine():
     # creating key strings
     keys = 'abcdefghijklmnopqrstuvwxyz !'
     
@@ -28,4 +28,4 @@ def machine():
 
     return newMessage.capitalize()
 
-print(machine())
+print(mycryptomachine())
